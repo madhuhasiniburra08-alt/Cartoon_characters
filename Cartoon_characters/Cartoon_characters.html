@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images in Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #18a985;
+            text-align: center;
+        }
+        h1 {
+            color: #fff;
+            margin-top: 20px;
+        }
+        .gallery {
+            display: inline-block;
+            margin: 10px;
+            border: 1px solid #ccc;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+            border-radius: 5px;
+            width: 400px;
+        }
+        .description {
+            text-align: center;
+            font-weight: bold;
+            color: #333;
+        }
+        .gallery:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <h1>Images in Gallery</h1>
+    <div class="gallery">
+        <a href="diego.jpg" target="_blank">
+            <img src="diego.jpg" alt="Image 1">
+        </a>
+        <div class="description">Go Diego Go!</div>
+    </div>
+    <div class="gallery">
+        <a href="dora.jpg" target="_blank">
+            <img src="dora.jpg" alt="Image 2"> 
+         </a>
+        <div class="description">Dora the Explorer</div>
+    </div>
+    <div class="gallery">
+        <a href="max_ruby.jpg" target="_blank">
+            <img src="max_ruby.jpg" alt="Image 3">
+        </a>
+        <div class="description">Max and Ruby</div>
+    </div>
+    <div class="gallery">
+        <a href="paw-petrol.jpg" target="_blank">
+            <img src="paw-petrol.jpg" alt="Image 4">
+        </a>
+        <div class="description">Paw-Patrol</div>
+    </div>
+    <div class="gallery">
+        <a href="roll_no-21.jpg" target="_blank">
+            <img src="roll_no-21.jpg" alt="Image 5">
+        </a>
+        <div class="description">Roll No. 21</div>
+    </div>
+    <div class="gallery">
+        <a href="oggy.jpg" target="_blank">
+            <img src="oggy.jpg" alt="Image 6">
+        </a>
+        <div class="description">Oggy and the Cockroaches</div>
+    </div>
+    <div class="gallery">
+        <a href="team_umizoomi.webp" target="_blank">
+            <img src="team_umizoomi.webp" alt="Image 7">
+        </a>
+        <div class="description">Team Umizoomi</div>
+    </div>
+</body>
+</html>
